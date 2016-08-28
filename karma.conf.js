@@ -1,7 +1,7 @@
 module.exports = function(config) {
   config.set({
     basePath: '',
-    browsers: ['Chrome'],
+    browsers: ['PhantomJS', 'Firefox'],
     frameworks: ['browserify', 'mocha', 'chai'],
     files: [
       'node_modules/babel-polyfill/dist/polyfill.js',
